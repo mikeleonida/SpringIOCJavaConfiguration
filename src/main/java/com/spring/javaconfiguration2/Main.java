@@ -15,7 +15,9 @@ public class Main {
 		System.out.println("user2 = " + (Emp) appContext.getBean("user2"));
 		System.out.println("newUser = " + (Emp) appContext.getBean("newUser"));
 		
-		((Emp) appContext.getBean("newUser")).setCity("New York");
+		Emp rajesh = (Emp) appContext.getBean("newUser");
+		rajesh.setCity("Bucharest");
+		System.out.println("rajesh = " + rajesh);
 		
 		System.out.println("salesDept = " + (Department) appContext.getBean("salesDept"));
 		System.out.println("newDepartment = " + (Department) appContext.getBean("newDepartment"));

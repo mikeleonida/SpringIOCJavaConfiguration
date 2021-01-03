@@ -1,5 +1,7 @@
 package com.spring.bean.javaconfiguration2;
 
+// v2 comment
+
 public class Emp {
 	private int empNo;
 	private String empName;
